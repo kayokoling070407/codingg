@@ -135,7 +135,7 @@ while tracker !=1:
   print("   a) have cell wall, does not have nucleas")
   print("   b) have a vacuole, have flagella")
   print("   c) have large-central vacoule, have chloroplast")
-  print("   d) have ")
+  print("   d) have nucleas, does not have chloroplast")
   answer = input("Your answer: ")
   answer = answer.lower()
   if answer == "a":
