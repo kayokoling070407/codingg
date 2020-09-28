@@ -146,12 +146,12 @@ while tracker !=1:
     score -=1
   elif answer == "c":
     output = "Yes, that's right!"
-    score -=1
+    score +=1
     
   elif answer == "d":
     output = "Wrong.  Think again - does the plant cell in a leaf need to make plants?"
     tracker =1
-    score +=1
+    score -=1
   else:
     output = "Please choose a, b, c or d only."
 
