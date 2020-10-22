@@ -38,7 +38,7 @@ while tracker !=1:
     output = "Wrong. This is not division."
     score -=1
   else:
-    output = "Please choose a, b, c or d only."
+    output = "Please choose a, b, c or d only. You can try again if you get it wrong the first time."
   
   print()
   print(output)
@@ -132,7 +132,7 @@ tracker = 0
 
 while tracker !=1:
   print("Q"+str(counter)+") "+ "Which correctly represents a plant cell in a leaf")
-  print("   a) have cell wall, does not have nucleas")
+  print("   a) have cell wall, does not have nucleus")
   print("   b) have a vacuole, have flagella")
   print("   c) have large-central vacoule, have chloroplast")
   print("   d) have nucleas, does not have chloroplast")
@@ -168,6 +168,6 @@ while tracker !=1:
   
  
   
-print("End of quiz!! Good job :))")
+print("End of quiz!! Good job :)) Don't worry if you didnt get a lot of correct! Just learn from your mistakesss:)")
   
 hi
